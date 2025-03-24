@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <img src="logo-removebg-preview (2).png" alt="Logo da Educação de Qualidade" style="float: left; width: 55px; height: auto; margin: 10px;">
+    <title>Educação de Qualidade - Área de Estudo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(194, 197, 31);
+            text-align: center; /* Centraliza todo o texto */
+        }header {
+            background-color: #000000; /* Barra superior verde */
+            padding: 10px;
+            text-align: center; /* Centraliza o texto da barra superior */
+        }
+        nav {
+            background-color: #000000; /* Cor da barra de navegação */
+            padding: 15px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            background-color: #ffffff;
+            border-radius: 5px;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centraliza os itens */
+            margin: 200px;
+        }
+        h2 {
+            color: #4CAF50; /* Cor do título */
+        }
+        .sections {
+            display: flex;
+            justify-content: space-around; /* Espaça os tópicos uniformemente */
+            width: 100%;
+            max-width: 1200px; /* Limita a largura total */
+            margin-top: 20px;
+        }
+        section {
+            border: 2px solid rgb(65, 140, 201); /* Borda azul */
+            border-radius: 10px;
+            padding: 15px;
+            width: 30%; /* Largura de cada seção */
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        section h3 {
+            margin-bottom: 10px; /* Espaço abaixo do título da seção */
+        }
+        footer {
+            margin-top: auto; /* Faz o rodapé ficar na parte inferior */
+            background-color: #000000; /* Cor do rodapé */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="estudo.html">Área de Estudo</a></li>
+                <li><a href="aulalivro.html">Aulas ao Vivo</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+                <li><a href="configuracoes.html">Configurações</a></li>
+                <li><a href="curso.html">Curso</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Área de Estudo</h2>
+        <p>Bem-vindo à sua área de estudo! Aqui você encontrará uma variedade de materiais para ajudar em seu aprendizado.</p>
+
+        <div class="sections">
+            <section>
+                <h3>Materiais de Estudo</h3>
+                <ul>
+                    <li><a href="materiais/matematica.pdf" target="_blank">Matemática Básica (PDF)</a></li>
+                    <li><a href="materiais/literatura.pdf" target="_blank">Literatura Portuguesa (PDF)</a></li>
+                    <li><a href="materiais/ciencias.pdf" target="_blank">Ciências (PDF)</a></li>
+                    <li><a href="materiais/historia.pdf" target="_blank">História (PDF)</a></li>
+                    <li><a href="" target="">Introdução à Programação (PDF)</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Videoaulas</h3>
+                <p>Acesse nossas videoaulas sobre os seguintes temas:</p>
+                <ul>
+                    <li><a href="https://youtube.com/playlist?list=PL123456" target="_blank">Matemática Básica</a></li>
+                    <li><a href="https://youtube.com/playlist?list=PL123456" target="_blank">Língua Portuguesa</a></li>
+                    <li><a href="https://youtube.com/playlist?list=PL123456" target="_blank">História do Brasil</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Exercícios e Avaliações</h3>
+                <p>Teste seus conhecimentos com os seguintes exercícios:</p>
+                <ul>
+                    <li><a href="exercicios/matematica.html" target="_blank">Exercícios de Matemática</a></li>
+                    <li><a href="exercicios/literatura.html" target="_blank">Exercícios de Literatura</a></li>
+                    <li><a href="exercicios/ciencias.html" target="_blank">Exercícios de Ciências</a></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Educação de Qualidade. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

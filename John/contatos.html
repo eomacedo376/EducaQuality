@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <img src="logo-removebg-preview (2).png" alt="Logo da Educação de Qualidade" style="float: left; width: 55px; height: auto; margin: 10px;">
+    <title>Educação de Qualidade - Contatos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(194, 197, 31); /* Cor de fundo da página */
+            text-align: center; /* Centraliza o texto */
+        }
+        header {
+            background-color: #000000; /* Barra superior verde */
+            padding: 10px;
+            text-align: center; /* Centraliza o texto da barra superior */
+        }
+        nav {
+            background-color: #000000; /* Cor da barra de navegação */
+            padding: 15px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white; /* Cor do texto dos links */
+            text-decoration: none;
+            padding: 14px 20px;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            background-color: #ffffff; /* Cor de fundo ao passar o mouse */
+            border-radius: 5px;
+        }   
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centraliza os itens */
+            margin: 20px;
+            border: 2px solid rgb(65, 140, 201); /* Borda azul */
+            border-radius: 10px; /* Cantos arredondados */
+            padding: 20px; /* Espaçamento interno */
+            background-color: #ffffff; /* Fundo leve */
+            max-width: 800px; /* Limita a largura total */
+            margin-left: auto; /* Centraliza horizontalmente */
+            margin-right: auto; /* Centraliza horizontalmente */
+            position: relative; /* Necessário para as bordas verde */
+        }
+        /* Borda verde em cima e embaixo */
+        main::before,
+        main::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: 10px; /* Altura da borda verde */
+        }
+        main::before {
+            top: -10px; /* Posiciona a borda verde acima */
+        }
+        main::after {
+            bottom: -10px; /* Posiciona a borda verde abaixo */
+        }
+        h2 {
+            color: #4CAF50; /* Cor do título */
+        }
+        section {
+            margin-top: 20px; /* Espaço entre as seções */
+            width: 100%; /* Largura total da seção */
+        }
+        section h3 {
+            color: #4CAF50; /* Cor dos títulos das seções */
+        }
+        footer {
+            background-color: #000000; /* Cor do rodapé */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px; /* Espaço acima do rodapé */
+        }
+        form {
+            margin-top: 10px; /* Espaço acima do formulário */
+            text-align: left; /* Alinha o texto do formulário à esquerda */
+            display: inline-block; /* Para que o formulário não ocupe toda a largura */
+        }
+        label {
+            display: block; /* Cada label em uma linha nova */
+            margin-top: 10px; /* Espaço acima dos labels */
+        }
+        input, textarea {
+            width: 100%; /* Largura total dos campos */
+            padding: 8px; /* Espaçamento interno dos campos */
+            margin-top: 5px; /* Espaço acima dos campos */
+            border: 1px solid #ccc; /* Borda dos campos */
+            border-radius: 4px; /* Cantos arredondados */
+        }
+        button {
+            background-color: #4CAF50; /* Cor do botão */
+            color: white; /* Cor do texto do botão */
+            border: none; /* Remove a borda padrão */
+            padding: 10px 15px; /* Espaçamento interno do botão */
+            margin-top: 10px; /* Espaço acima do botão */
+            cursor: pointer; /* Cursor ao passar o mouse */
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="estudo.html">Área de Estudo</a></li>
+                <li><a href="aulalivro.html">Aulas ao Vivo</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+                <li><a href="configuracoes.html">Configurações</a></li>
+                <li><a href="curso.html">Curso</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contatos</h2>
+        <p>Entre em contato conosco através dos canais abaixo:</p>
+
+        <section>
+            <h3>Email</h3>
+            <p>Você pode nos enviar um email para: <a href="mailto:educaqualityemail">@educaqualityemail@gmail.com</a></p>
+        </section>
+
+        <section>
+            <h3>Telefone</h3>
+            <p>Estamos disponíveis pelo telefone: <strong>+55 44 8438-7913</strong></p>
+        </section>
+
+        <section>
+            <h3>Redes Sociais</h3>
+            <p>Siga-nos em nossas redes sociais:</p>
+            <ul>
+                <li><a href="https://www.instagram.com/educaquality1/" target="_blank">Instagram</a></li>
+                <li><a href="https://www.youtube.com/@EducaQuality-u8t" target="_blank">Youtube</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Formulário de Contato</h3>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Seu nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Seu email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Educação de Qualidade. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
