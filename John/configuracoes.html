@@ -9,7 +9,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: rgb(194, 197, 31); /* Cor de fundo da página */
+            background-color: rgb(42, 134, 209); /* Cor de fundo da página */
             text-align: center; /* Centraliza o texto */
         }
         header {
@@ -70,7 +70,7 @@
             bottom: -10px; /* Posiciona a borda verde abaixo */
         }
         h2, h3 {
-            color: #4CAF50; /* Cor dos títulos */
+            color: #1d1c1c; /* Cor dos títulos */
         }
         form {
             width: 100%; /* Largura total do formulário */
@@ -156,8 +156,7 @@
                 <option value="monospace">Monospace</option>
             </select>
 
-            <label for="modo-noturno">Modo Noturno:</label>
-            <input type="checkbox" id="modo-noturno">
+            <button id="toggleButton">Ativar Modo Noturno</button>
 
             <button type="submit">Salvar Configurações</button>
         </form>
@@ -167,17 +166,6 @@
         <p>&copy; 2024 Educação de Qualidade. Todos os direitos reservados.</p>
     </footer>
 
-    <script>
-        // Script para alternar o modo noturno
-        const modoNoturnoCheckbox = document.getElementById('modo-noturno');
-
-        modoNoturnoCheckbox.addEventListener('change', () => {
-            if (modoNoturnoCheckbox.checked) {
-                document.body.classList.add('modo-noturno');
-            } else {
-                document.body.classList.remove('modo-noturno');
-            }
-        });
-    </script>
+    <script src="Noturno.js"></script>
 </body>
 </html>
